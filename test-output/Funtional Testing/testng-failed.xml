@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Funtional Testing]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Signup Smoke Test(failed)">
+    <groups>
+      <run>
+        <include name="Smoke Test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScenarios.LiveSupportGSD">
+        <methods>
+          <include name="enterEmail"/>
+          <include name="testCaseReadExcel"/>
+          <include name="clickNext"/>
+          <include name="clickVerify"/>
+          <include name="enterOTP"/>
+          <include name="clickStaySignedIn"/>
+          <include name="getUserInfo"/>
+          <include name="enterPassword"/>
+          <include name="clickSignIn"/>
+          <include name="verificationMethod"/>
+        </methods>
+      </class> <!-- testScenarios.LiveSupportGSD -->
+    </classes>
+  </test> <!-- Signup Smoke Test(failed) -->
+  <test thread-count="5" name="GSD Regression Test(failed)">
+    <groups>
+      <run>
+        <include name="Regression Test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScenarios.LiveSupportGSD">
+        <methods>
+          <include name="clickCountryMenu"/>
+          <include name="clickSearchBox"/>
+          <include name="enterSearchBox"/>
+          <include name="switchIFrame"/>
+          <include name="getFirstServiceList"/>
+          <include name="getSecondServiceList"/>
+          <include name="clickResult"/>
+          <include name="getHeadersOfServices"/>
+          <include name="switchWindowHandle"/>
+          <include name="getFourthServiceList"/>
+          <include name="clickCountry"/>
+          <include name="getThirdServiceList"/>
+        </methods>
+      </class> <!-- testScenarios.LiveSupportGSD -->
+    </classes>
+  </test> <!-- GSD Regression Test(failed) -->
+</suite> <!-- Failed suite [Funtional Testing] -->

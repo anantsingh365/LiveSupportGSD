@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Funtional Testing" parallel="none">
+
+	<test name="Signup Smoke Test">
+
+		<groups>
+
+			<run>
+
+				<include name="Smoke Test" />
+
+			</run>
+
+		</groups>
+
+		<classes>
+			<class name="testScenarios.LiveSupportGSD" />
+		</classes>
+
+	</test> <!-- Signup Smoke Test -->
+
+	<test name="GSD Regression Test">
+
+		<groups>
+
+			<run>
+
+				<include name="Regression Test" />
+
+			</run>
+
+		</groups>
+
+		<classes>
+			<class name="testScenarios.LiveSupportGSD" />
+		</classes>
+
+	</test> <!-- GSD Smoke Test -->
+	
+</suite> <!-- Funtional Testing -->

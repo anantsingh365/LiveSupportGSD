@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="23" total="46" passed="23" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-04T07:15:30Z" name="Funtional Testing" finished-at="2022-07-04T07:16:36Z" duration-ms="66492">
+    <groups>
+      <group name="Regression Test">
+        <method signature="LiveSupportGSD.clickCountry()[pri:16, instance:testScenarios.LiveSupportGSD@6bf0219d]" name="clickCountry" class="testScenarios.LiveSupportGSD"/>
+        <method signature="LiveSupportGSD.clickCountryMenu()[pri:15, instance:testScenarios.LiveSupportGSD@6bf0219d]" name="clickCountryMenu" class="testScenarios.LiveSupportGSD"/>
+        <method signature="LiveSupportGSD.clickResult()[pri:12, instance:testScenarios.LiveSupportGSD@6bf0219d]" name="clickResult" class="testScenarios.LiveSupportGSD"/>
+        <method signature="LiveSupportGSD.clickSearchBox()[pri:11, instance:testScenarios.LiveSupportGSD@6bf0219d]" name="clickSearchBox" class="testScenarios.LiveSupportGSD"/>
+        <method signature="LiveSupportGSD.enterSearchBox()[pri:10, instance:testScenarios.LiveSupportGSD@6bf0219d]" name="enterSearchBox" class="testScenarios.LiveSupportGSD"/>
+        <method signature="LiveSupportGSD.getFirstServiceList()[pri:18, instance:testScenarios.LiveSupportGSD@6bf0219d]" name="getFirstServiceList" class="testScenarios.LiveSupportGSD"/>
+        <method signature="LiveSupportGSD.getFourthServiceList()[pri:21, instance:testScenarios.LiveSupportGSD@6bf0219d]" name="getFourthServiceList" class="testScenarios.LiveSupportGSD"/>
+        <method signature="LiveSupportGSD.getHeadersOfServices()[pri:17, instance:testScenarios.LiveSupportGSD@6bf0219d]" name="getHeadersOfServices" class="testScenarios.LiveSupportGSD"/>
+        <method signature="LiveSupportGSD.getSecondServiceList()[pri:19, instance:testScenarios.LiveSupportGSD@6bf0219d]" name="getSecondServiceList" class="testScenarios.LiveSupportGSD"/>
+        <method signature="LiveSupportGSD.getThirdServiceList()[pri:20, instance:testScenarios.LiveSupportGSD@6bf0219d]" name="getThirdServiceList" class="testScenarios.LiveSupportGSD"/>
+        <method signature="LiveSupportGSD.logGSDServices()[pri:22, instance:testScenarios.LiveSupportGSD@6bf0219d]" name="logGSDServices" class="testScenarios.LiveSupportGSD"/>
+        <method signature="LiveSupportGSD.switchIFrame()[pri:14, instance:testScenarios.LiveSupportGSD@6bf0219d]" name="switchIFrame" class="testScenarios.LiveSupportGSD"/>
+        <method signature="LiveSupportGSD.switchWindowHandle()[pri:13, instance:testScenarios.LiveSupportGSD@6bf0219d]" name="switchWindowHandle" class="testScenarios.LiveSupportGSD"/>
+      </group> <!-- Regression Test -->
+      <group name="Smoke Test">
+        <method signature="LiveSupportGSD.clickNext()[pri:2, instance:testScenarios.LiveSupportGSD@6a03bcb1]" name="clickNext" class="testScenarios.LiveSupportGSD"/>
+        <method signature="LiveSupportGSD.clickSignIn()[pri:4, instance:testScenarios.LiveSupportGSD@6a03bcb1]" name="clickSignIn" class="testScenarios.LiveSupportGSD"/>
+        <method signature="LiveSupportGSD.clickStaySignedIn()[pri:8, instance:testScenarios.LiveSupportGSD@6a03bcb1]" name="clickStaySignedIn" class="testScenarios.LiveSupportGSD"/>
+        <method signature="LiveSupportGSD.clickVerify()[pri:7, instance:testScenarios.LiveSupportGSD@6a03bcb1]" name="clickVerify" class="testScenarios.LiveSupportGSD"/>
+        <method signature="LiveSupportGSD.enterEmail()[pri:1, instance:testScenarios.LiveSupportGSD@6a03bcb1]" name="enterEmail" class="testScenarios.LiveSupportGSD"/>
+        <method signature="LiveSupportGSD.enterOTP()[pri:6, instance:testScenarios.LiveSupportGSD@6a03bcb1]" name="enterOTP" class="testScenarios.LiveSupportGSD"/>
+        <method signature="LiveSupportGSD.enterPassword()[pri:3, instance:testScenarios.LiveSupportGSD@6a03bcb1]" name="enterPassword" class="testScenarios.LiveSupportGSD"/>
+        <method signature="LiveSupportGSD.getUserInfo()[pri:9, instance:testScenarios.LiveSupportGSD@6a03bcb1]" name="getUserInfo" class="testScenarios.LiveSupportGSD"/>
+        <method signature="LiveSupportGSD.testCaseReadExcel()[pri:0, instance:testScenarios.LiveSupportGSD@6a03bcb1]" name="testCaseReadExcel" class="testScenarios.LiveSupportGSD"/>
+        <method signature="LiveSupportGSD.verificationMethod()[pri:5, instance:testScenarios.LiveSupportGSD@6a03bcb1]" name="verificationMethod" class="testScenarios.LiveSupportGSD"/>
+      </group> <!-- Smoke Test -->
+    </groups>
+    <test started-at="2022-07-04T07:15:30Z" name="Signup Smoke Test" finished-at="2022-07-04T07:15:57Z" duration-ms="27171">
+      <class name="testScenarios.LiveSupportGSD">
+        <test-method is-config="true" signature="driverConfig()[pri:0, instance:testScenarios.LiveSupportGSD@6a03bcb1]" started-at="2022-07-04T07:15:30Z" name="driverConfig" finished-at="2022-07-04T07:15:33Z" duration-ms="2788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method signature="testCaseReadExcel()[pri:0, instance:testScenarios.LiveSupportGSD@6a03bcb1]" started-at="2022-07-04T07:15:33Z" name="testCaseReadExcel" finished-at="2022-07-04T07:15:34Z" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseReadExcel -->
+        <test-method signature="enterEmail()[pri:1, instance:testScenarios.LiveSupportGSD@6a03bcb1]" started-at="2022-07-04T07:15:34Z" name="enterEmail" finished-at="2022-07-04T07:15:34Z" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterEmail -->
+        <test-method signature="clickNext()[pri:2, instance:testScenarios.LiveSupportGSD@6a03bcb1]" started-at="2022-07-04T07:15:34Z" name="clickNext" finished-at="2022-07-04T07:15:35Z" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickNext -->
+        <test-method signature="enterPassword()[pri:3, instance:testScenarios.LiveSupportGSD@6a03bcb1]" started-at="2022-07-04T07:15:35Z" name="enterPassword" finished-at="2022-07-04T07:15:36Z" duration-ms="1575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassword -->
+        <test-method signature="clickSignIn()[pri:4, instance:testScenarios.LiveSupportGSD@6a03bcb1]" started-at="2022-07-04T07:15:36Z" name="clickSignIn" finished-at="2022-07-04T07:15:37Z" duration-ms="788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSignIn -->
+        <test-method signature="verificationMethod()[pri:5, instance:testScenarios.LiveSupportGSD@6a03bcb1]" started-at="2022-07-04T07:15:37Z" name="verificationMethod" finished-at="2022-07-04T07:15:37Z" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificationMethod -->
+        <test-method signature="enterOTP()[pri:6, instance:testScenarios.LiveSupportGSD@6a03bcb1]" started-at="2022-07-04T07:15:37Z" name="enterOTP" finished-at="2022-07-04T07:15:49Z" duration-ms="12337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterOTP -->
+        <test-method signature="clickVerify()[pri:7, instance:testScenarios.LiveSupportGSD@6a03bcb1]" started-at="2022-07-04T07:15:49Z" name="clickVerify" finished-at="2022-07-04T07:15:50Z" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickVerify -->
+        <test-method signature="clickStaySignedIn()[pri:8, instance:testScenarios.LiveSupportGSD@6a03bcb1]" started-at="2022-07-04T07:15:50Z" name="clickStaySignedIn" finished-at="2022-07-04T07:15:57Z" duration-ms="7186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickStaySignedIn -->
+        <test-method signature="getUserInfo()[pri:9, instance:testScenarios.LiveSupportGSD@6a03bcb1]" started-at="2022-07-04T07:15:57Z" name="getUserInfo" finished-at="2022-07-04T07:15:57Z" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserInfo -->
+      </class> <!-- testScenarios.LiveSupportGSD -->
+    </test> <!-- Signup Smoke Test -->
+    <test started-at="2022-07-04T07:15:57Z" name="GSD Regression Test" finished-at="2022-07-04T07:16:36Z" duration-ms="39294">
+      <class name="testScenarios.LiveSupportGSD">
+        <test-method signature="enterSearchBox()[pri:10, instance:testScenarios.LiveSupportGSD@6bf0219d]" started-at="2022-07-04T07:15:57Z" name="enterSearchBox" finished-at="2022-07-04T07:15:58Z" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSearchBox -->
+        <test-method signature="clickSearchBox()[pri:11, instance:testScenarios.LiveSupportGSD@6bf0219d]" started-at="2022-07-04T07:15:58Z" name="clickSearchBox" finished-at="2022-07-04T07:15:58Z" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSearchBox -->
+        <test-method signature="clickResult()[pri:12, instance:testScenarios.LiveSupportGSD@6bf0219d]" started-at="2022-07-04T07:15:58Z" name="clickResult" finished-at="2022-07-04T07:15:59Z" duration-ms="940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickResult -->
+        <test-method signature="switchWindowHandle()[pri:13, instance:testScenarios.LiveSupportGSD@6bf0219d]" started-at="2022-07-04T07:15:59Z" name="switchWindowHandle" finished-at="2022-07-04T07:16:02Z" duration-ms="2879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchWindowHandle -->
+        <test-method signature="switchIFrame()[pri:14, instance:testScenarios.LiveSupportGSD@6bf0219d]" started-at="2022-07-04T07:16:02Z" name="switchIFrame" finished-at="2022-07-04T07:16:32Z" duration-ms="30200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchIFrame -->
+        <test-method signature="clickCountryMenu()[pri:15, instance:testScenarios.LiveSupportGSD@6bf0219d]" started-at="2022-07-04T07:16:32Z" name="clickCountryMenu" finished-at="2022-07-04T07:16:32Z" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCountryMenu -->
+        <test-method signature="clickCountry()[pri:16, instance:testScenarios.LiveSupportGSD@6bf0219d]" started-at="2022-07-04T07:16:32Z" name="clickCountry" finished-at="2022-07-04T07:16:36Z" duration-ms="3300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCountry -->
+        <test-method signature="getHeadersOfServices()[pri:17, instance:testScenarios.LiveSupportGSD@6bf0219d]" started-at="2022-07-04T07:16:36Z" name="getHeadersOfServices" finished-at="2022-07-04T07:16:36Z" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHeadersOfServices -->
+        <test-method signature="getFirstServiceList()[pri:18, instance:testScenarios.LiveSupportGSD@6bf0219d]" started-at="2022-07-04T07:16:36Z" name="getFirstServiceList" finished-at="2022-07-04T07:16:36Z" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFirstServiceList -->
+        <test-method signature="getSecondServiceList()[pri:19, instance:testScenarios.LiveSupportGSD@6bf0219d]" started-at="2022-07-04T07:16:36Z" name="getSecondServiceList" finished-at="2022-07-04T07:16:36Z" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSecondServiceList -->
+        <test-method signature="getThirdServiceList()[pri:20, instance:testScenarios.LiveSupportGSD@6bf0219d]" started-at="2022-07-04T07:16:36Z" name="getThirdServiceList" finished-at="2022-07-04T07:16:36Z" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getThirdServiceList -->
+        <test-method signature="getFourthServiceList()[pri:21, instance:testScenarios.LiveSupportGSD@6bf0219d]" started-at="2022-07-04T07:16:36Z" name="getFourthServiceList" finished-at="2022-07-04T07:16:36Z" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFourthServiceList -->
+        <test-method signature="logGSDServices()[pri:22, instance:testScenarios.LiveSupportGSD@6bf0219d]" started-at="2022-07-04T07:16:36Z" name="logGSDServices" finished-at="2022-07-04T07:16:36Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logGSDServices -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:testScenarios.LiveSupportGSD@6bf0219d]" started-at="2022-07-04T07:16:36Z" name="driverClose" finished-at="2022-07-04T07:16:36Z" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+      </class> <!-- testScenarios.LiveSupportGSD -->
+    </test> <!-- GSD Regression Test -->
+  </suite> <!-- Funtional Testing -->
+</testng-results>

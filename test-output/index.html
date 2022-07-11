@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Funtional_Testing" class="navigator-link">
+              <span class="suite-name border-passed">Funtional Testing</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Funtional_Testing" class="navigator-link ">
+                    <span>C:\Users\sanan\Downloads\LiveSupportGSD\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Funtional_Testing" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Funtional_Testing" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Funtional_Testing" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Funtional_Testing" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Funtional_Testing" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Funtional_Testing" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Funtional_Testing" class="hide-methods passed suite-Funtional_Testing"> (hide)</a> <!-- hide-methods passed suite-Funtional_Testing -->
+                      <a href="#" panel-name="suite-Funtional_Testing" class="show-methods passed suite-Funtional_Testing"> (show)</a> <!-- show-methods passed suite-Funtional_Testing -->
+                    </span>
+                    <div class="method-list-content passed suite-Funtional_Testing">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Funtional_Testing" title="testScenarios.LiveSupportGSD" class="method navigator-link" hash-for-method="clickCountry">clickCountry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Funtional_Testing" title="testScenarios.LiveSupportGSD" class="method navigator-link" hash-for-method="clickCountryMenu">clickCountryMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Funtional_Testing" title="testScenarios.LiveSupportGSD" class="method navigator-link" hash-for-method="clickNext">clickNext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Funtional_Testing" title="testScenarios.LiveSupportGSD" class="method navigator-link" hash-for-method="clickResult">clickResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Funtional_Testing" title="testScenarios.LiveSupportGSD" class="method navigator-link" hash-for-method="clickSearchBox">clickSearchBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Funtional_Testing" title="testScenarios.LiveSupportGSD" class="method navigator-link" hash-for-method="clickSignIn">clickSignIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Funtional_Testing" title="testScenarios.LiveSupportGSD" class="method navigator-link" hash-for-method="clickStaySignedIn">clickStaySignedIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Funtional_Testing" title="testScenarios.LiveSupportGSD" class="method navigator-link" hash-for-method="clickVerify">clickVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Funtional_Testing" title="testScenarios.LiveSupportGSD" class="method navigator-link" hash-for-method="enterEmail">enterEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Funtional_Testing" title="testScenarios.LiveSupportGSD" class="method navigator-link" hash-for-method="enterOTP">enterOTP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Funtional_Testing" title="testScenarios.LiveSupportGSD" class="method navigator-link" hash-for-method="enterPassword">enterPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Funtional_Testing" title="testScenarios.LiveSupportGSD" class="method navigator-link" hash-for-method="enterSearchBox">enterSearchBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Funtional_Testing" title="testScenarios.LiveSupportGSD" class="method navigator-link" hash-for-method="getFirstServiceList">getFirstServiceList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Funtional_Testing" title="testScenarios.LiveSupportGSD" class="method navigator-link" hash-for-method="getFourthServiceList">getFourthServiceList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Funtional_Testing" title="testScenarios.LiveSupportGSD" class="method navigator-link" hash-for-method="getHeadersOfServices">getHeadersOfServices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Funtional_Testing" title="testScenarios.LiveSupportGSD" class="method navigator-link" hash-for-method="getSecondServiceList">getSecondServiceList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Funtional_Testing" title="testScenarios.LiveSupportGSD" class="method navigator-link" hash-for-method="getThirdServiceList">getThirdServiceList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Funtional_Testing" title="testScenarios.LiveSupportGSD" class="method navigator-link" hash-for-method="getUserInfo">getUserInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Funtional_Testing" title="testScenarios.LiveSupportGSD" class="method navigator-link" hash-for-method="logGSDServices">logGSDServices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Funtional_Testing" title="testScenarios.LiveSupportGSD" class="method navigator-link" hash-for-method="switchIFrame">switchIFrame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Funtional_Testing" title="testScenarios.LiveSupportGSD" class="method navigator-link" hash-for-method="switchWindowHandle">switchWindowHandle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Funtional_Testing" title="testScenarios.LiveSupportGSD" class="method navigator-link" hash-for-method="testCaseReadExcel">testCaseReadExcel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Funtional_Testing" title="testScenarios.LiveSupportGSD" class="method navigator-link" hash-for-method="verificationMethod">verificationMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Funtional_Testing -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Funtional_Testing" class="panel Funtional_Testing">
+          <div class="suite-Funtional_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScenarios.LiveSupportGSD</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickCountry">
+                  </a> <!-- clickCountry -->
+                  <span class="method-name">clickCountry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickCountryMenu">
+                  </a> <!-- clickCountryMenu -->
+                  <span class="method-name">clickCountryMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickNext">
+                  </a> <!-- clickNext -->
+                  <span class="method-name">clickNext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickResult">
+                  </a> <!-- clickResult -->
+                  <span class="method-name">clickResult</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickSearchBox">
+                  </a> <!-- clickSearchBox -->
+                  <span class="method-name">clickSearchBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickSignIn">
+                  </a> <!-- clickSignIn -->
+                  <span class="method-name">clickSignIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickStaySignedIn">
+                  </a> <!-- clickStaySignedIn -->
+                  <span class="method-name">clickStaySignedIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickVerify">
+                  </a> <!-- clickVerify -->
+                  <span class="method-name">clickVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterEmail">
+                  </a> <!-- enterEmail -->
+                  <span class="method-name">enterEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterOTP">
+                  </a> <!-- enterOTP -->
+                  <span class="method-name">enterOTP</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterPassword">
+                  </a> <!-- enterPassword -->
+                  <span class="method-name">enterPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterSearchBox">
+                  </a> <!-- enterSearchBox -->
+                  <span class="method-name">enterSearchBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFirstServiceList">
+                  </a> <!-- getFirstServiceList -->
+                  <span class="method-name">getFirstServiceList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFourthServiceList">
+                  </a> <!-- getFourthServiceList -->
+                  <span class="method-name">getFourthServiceList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getHeadersOfServices">
+                  </a> <!-- getHeadersOfServices -->
+                  <span class="method-name">getHeadersOfServices</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSecondServiceList">
+                  </a> <!-- getSecondServiceList -->
+                  <span class="method-name">getSecondServiceList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getThirdServiceList">
+                  </a> <!-- getThirdServiceList -->
+                  <span class="method-name">getThirdServiceList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUserInfo">
+                  </a> <!-- getUserInfo -->
+                  <span class="method-name">getUserInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logGSDServices">
+                  </a> <!-- logGSDServices -->
+                  <span class="method-name">logGSDServices</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="switchIFrame">
+                  </a> <!-- switchIFrame -->
+                  <span class="method-name">switchIFrame</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="switchWindowHandle">
+                  </a> <!-- switchWindowHandle -->
+                  <span class="method-name">switchWindowHandle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseReadExcel">
+                  </a> <!-- testCaseReadExcel -->
+                  <span class="method-name">testCaseReadExcel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificationMethod">
+                  </a> <!-- verificationMethod -->
+                  <span class="method-name">verificationMethod</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Funtional_Testing-class-passed -->
+        </div> <!-- panel Funtional_Testing -->
+        <div panel-name="test-xml-Funtional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sanan\Downloads\LiveSupportGSD\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Funtional Testing&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Signup Smoke Test&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Smoke Test&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testScenarios.LiveSupportGSD&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Signup Smoke Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;GSD Regression Test&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Regression Test&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testScenarios.LiveSupportGSD&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GSD Regression Test --&gt;
+&lt;/suite&gt; &lt;!-- Funtional Testing --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Funtional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Funtional Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Signup Smoke Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">GSD Regression Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Funtional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Funtional Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression Test</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickCountry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickCountryMenu</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickResult</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickSearchBox</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterSearchBox</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getFirstServiceList</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getFourthServiceList</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getHeadersOfServices</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getSecondServiceList</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getThirdServiceList</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">logGSDServices</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">switchIFrame</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">switchWindowHandle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke Test</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickNext</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickSignIn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickStaySignedIn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickVerify</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterOTP</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getUserInfo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCaseReadExcel</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verificationMethod</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Funtional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Funtional Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Funtional_Testing');
+function tableData_Funtional_Testing() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'switchIFrame')
+data.setCell(0, 2, 'testScenarios.LiveSupportGSD')
+data.setCell(0, 3, 30200);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'enterOTP')
+data.setCell(1, 2, 'testScenarios.LiveSupportGSD')
+data.setCell(1, 3, 12337);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'clickStaySignedIn')
+data.setCell(2, 2, 'testScenarios.LiveSupportGSD')
+data.setCell(2, 3, 7186);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'clickCountry')
+data.setCell(3, 2, 'testScenarios.LiveSupportGSD')
+data.setCell(3, 3, 3300);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'switchWindowHandle')
+data.setCell(4, 2, 'testScenarios.LiveSupportGSD')
+data.setCell(4, 3, 2879);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'enterPassword')
+data.setCell(5, 2, 'testScenarios.LiveSupportGSD')
+data.setCell(5, 3, 1575);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testCaseReadExcel')
+data.setCell(6, 2, 'testScenarios.LiveSupportGSD')
+data.setCell(6, 3, 1144);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'clickResult')
+data.setCell(7, 2, 'testScenarios.LiveSupportGSD')
+data.setCell(7, 3, 940);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'clickSignIn')
+data.setCell(8, 2, 'testScenarios.LiveSupportGSD')
+data.setCell(8, 3, 788);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'enterEmail')
+data.setCell(9, 2, 'testScenarios.LiveSupportGSD')
+data.setCell(9, 3, 573);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'enterSearchBox')
+data.setCell(10, 2, 'testScenarios.LiveSupportGSD')
+data.setCell(10, 3, 429);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'clickVerify')
+data.setCell(11, 2, 'testScenarios.LiveSupportGSD')
+data.setCell(11, 3, 404);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'clickCountryMenu')
+data.setCell(12, 2, 'testScenarios.LiveSupportGSD')
+data.setCell(12, 3, 329);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'clickSearchBox')
+data.setCell(13, 2, 'testScenarios.LiveSupportGSD')
+data.setCell(13, 3, 310);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'getUserInfo')
+data.setCell(14, 2, 'testScenarios.LiveSupportGSD')
+data.setCell(14, 3, 202);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'getFourthServiceList')
+data.setCell(15, 2, 'testScenarios.LiveSupportGSD')
+data.setCell(15, 3, 148);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'getFirstServiceList')
+data.setCell(16, 2, 'testScenarios.LiveSupportGSD')
+data.setCell(16, 3, 85);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'getThirdServiceList')
+data.setCell(17, 2, 'testScenarios.LiveSupportGSD')
+data.setCell(17, 3, 83);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'clickNext')
+data.setCell(18, 2, 'testScenarios.LiveSupportGSD')
+data.setCell(18, 3, 81);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'getSecondServiceList')
+data.setCell(19, 2, 'testScenarios.LiveSupportGSD')
+data.setCell(19, 3, 75);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verificationMethod')
+data.setCell(20, 2, 'testScenarios.LiveSupportGSD')
+data.setCell(20, 3, 57);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'getHeadersOfServices')
+data.setCell(21, 2, 'testScenarios.LiveSupportGSD')
+data.setCell(21, 3, 53);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'logGSDServices')
+data.setCell(22, 2, 'testScenarios.LiveSupportGSD')
+data.setCell(22, 3, 23);
+window.suiteTableData['Funtional_Testing']= { tableData: data, tableDiv: 'times-div-Funtional_Testing'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Funtional_Testing">
+              </div> <!-- times-div-Funtional_Testing -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Funtional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Funtional Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Funtional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">23 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testScenarios.LiveSupportGSD</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">enterSearchBox</span>
+                <br/>
+                <span class="ignored-method-name">clickSearchBox</span>
+                <br/>
+                <span class="ignored-method-name">switchIFrame</span>
+                <br/>
+                <span class="ignored-method-name">enterEmail</span>
+                <br/>
+                <span class="ignored-method-name">logGSDServices</span>
+                <br/>
+                <span class="ignored-method-name">clickNext</span>
+                <br/>
+                <span class="ignored-method-name">clickResult</span>
+                <br/>
+                <span class="ignored-method-name">enterOTP</span>
+                <br/>
+                <span class="ignored-method-name">switchWindowHandle</span>
+                <br/>
+                <span class="ignored-method-name">enterPassword</span>
+                <br/>
+                <span class="ignored-method-name">getFourthServiceList</span>
+                <br/>
+                <span class="ignored-method-name">clickSignIn</span>
+                <br/>
+                <span class="ignored-method-name">clickCountryMenu</span>
+                <br/>
+                <span class="ignored-method-name">testCaseReadExcel</span>
+                <br/>
+                <span class="ignored-method-name">getFirstServiceList</span>
+                <br/>
+                <span class="ignored-method-name">getSecondServiceList</span>
+                <br/>
+                <span class="ignored-method-name">clickVerify</span>
+                <br/>
+                <span class="ignored-method-name">getHeadersOfServices</span>
+                <br/>
+                <span class="ignored-method-name">clickStaySignedIn</span>
+                <br/>
+                <span class="ignored-method-name">getUserInfo</span>
+                <br/>
+                <span class="ignored-method-name">getThirdServiceList</span>
+                <br/>
+                <span class="ignored-method-name">clickCountry</span>
+                <br/>
+                <span class="ignored-method-name">verificationMethod</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Funtional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenarios.LiveSupportGSD</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">driverConfig</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseReadExcel</span>
+                <span class="method-start">2788 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterEmail</span>
+                <span class="method-start">3935 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickNext</span>
+                <span class="method-start">4509 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterPassword</span>
+                <span class="method-start">4593 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickSignIn</span>
+                <span class="method-start">6168 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificationMethod</span>
+                <span class="method-start">6957 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterOTP</span>
+                <span class="method-start">7015 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickVerify</span>
+                <span class="method-start">19353 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickStaySignedIn</span>
+                <span class="method-start">19758 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUserInfo</span>
+                <span class="method-start">26945 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterSearchBox</span>
+                <span class="method-start">27176 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickSearchBox</span>
+                <span class="method-start">27606 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickResult</span>
+                <span class="method-start">27917 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">switchWindowHandle</span>
+                <span class="method-start">28858 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">switchIFrame</span>
+                <span class="method-start">31738 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickCountryMenu</span>
+                <span class="method-start">61939 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickCountry</span>
+                <span class="method-start">62268 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getHeadersOfServices</span>
+                <span class="method-start">65568 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getFirstServiceList</span>
+                <span class="method-start">65622 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getSecondServiceList</span>
+                <span class="method-start">65708 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getThirdServiceList</span>
+                <span class="method-start">65783 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getFourthServiceList</span>
+                <span class="method-start">65867 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logGSDServices</span>
+                <span class="method-start">66015 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">66039 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
